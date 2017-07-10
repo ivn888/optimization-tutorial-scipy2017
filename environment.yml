@@ -1,0 +1,22 @@
+name: opt-tutorial
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6
+    - numpy
+    - scipy
+    - sympy
+    - matplotlib
+    - cvxopt
+    - jupyter
+    - ipython
+    - sqlalchemy
+    - pip
+    - pip:
+        - pox
+        - pathos
+        - mystic
+        - ppft
+        - klepto
+        - dill
